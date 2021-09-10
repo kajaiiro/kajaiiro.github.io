@@ -10,29 +10,35 @@
     body { 
         font-family: monospace, 'Times New Roman', Times, serif;      
         background-color: #323232;   
+        color: #829CD0;
         /* remove default margins */
         margin: 0; 
-        color: #829CD0;
     }
 
     header {
-        width: 75%;
-        margin: 0 auto;
-        padding: 1rem;
-        text-align: center;
+        background-color: #cef;
+        width: 100%;
+        padding: 2rem;
+        line-height: 0;
+    }
+
+    header p {
+        text-indent: 4rem;
     }
 
     main {
         background-color: #666;
-        width: 50%;
-        margin: 0 auto;
-        text-align: center;
         /* Bugfix and support for IE9 */
+        text-align: center;
         display: block;
-
     }
 
-    ul {
+    main p {
+        max-width: 670px;
+        margin: 0 auto;
+    }
+
+    main ul {
         display: block; 
         padding: 0;
         margin: 0;
@@ -40,11 +46,13 @@
     }
 
     footer {
-        width: 25%;
-        background-color: #323232;
-        margin: 2em auto;
-        padding: 15px;
-        border-radius: 20px;
+        padding: 1rem;
         text-align: center;
     }
 
+/* Class selectors */
+
+    .container {
+        max-width: 864px;
+        margin: 0 auto;
+    }

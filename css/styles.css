@@ -45,9 +45,23 @@
         list-style-type: none;
     }
 
+    textarea,
+    input {
+        background-color: #eee;
+    }
+
     footer {
         padding: 1rem;
         text-align: center;
+    }
+
+    footer a {
+        text-decoration: none;
+    }
+
+    footer img {
+        height: 3rem;
+        width: auto;
     }
 
 /* Class selectors */

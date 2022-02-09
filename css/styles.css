@@ -10,6 +10,7 @@
     body { 
         font-family: monospace, 'Times New Roman', Times, serif;      
         background-color: #323232;   
+        background-color: #ecf0f1;   
         color: #829CD0;
         /* remove default margins */
         margin: 0;
@@ -20,6 +21,7 @@
         width: 100%;
         padding: 2rem;
         line-height: 0;
+        text-align: center;
     }
 
     header p {
@@ -28,6 +30,7 @@
 
     main {
         background-color: #666;
+        background-color: #bdc3c7;
         /* Bugfix and support for IE9 */
         text-align: center;
         display: block;
@@ -51,6 +54,7 @@
     }
 
     footer {
+        background-color: #cef;
         padding: 1rem;
         text-align: center;
     }
@@ -67,17 +71,17 @@
     img {
         height: 186px;
         width: auto;
+
     }
 
 /* Class selectors */
 
     .container {
-        max-width: 864px;
+        max-width: 960px;
         margin: 0 auto;
     }
 
     .container-projects {
-        /* background-color: white; */
         padding: 3rem 0;
         display: flex;
         justify-content: center;
@@ -87,7 +91,17 @@
         flex-wrap: wrap;
     }
 
+    .container-projects h3, p {
+        width: 100%;
+    }
+
     .container-projects a {
-        border: 1px solid black;
-        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        height: 200px;
+        /* border: 1px solid black; */
+        /* border-radius: 1rem; */
+        background-color: #ecf0f1;
     }
